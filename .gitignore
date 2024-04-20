@@ -1,0 +1,34 @@
+# local env files
+.env
+.env.local
+.env.*.local
+
+public/static/images/test
+
+# Package Manager
+node_modules
+/dist
+dist*.zip
+.pnpm-debug.log*
+element-plus*.tgz
+
+# System
+.DS_Store
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# vite
+*.local
+
+# sonar
+.scannerwork/
+
+# language utils
+src/language/temp*
+src/language/translation.csv
